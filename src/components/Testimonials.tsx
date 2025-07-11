@@ -57,7 +57,7 @@ export function Testimonials({ items }: TestimonialsProps) {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                <span className="italic">"&quot;{t.quote}&quot;"</span>
+                <span className="italic">&quot;{t.quote}&quot;</span>
               </CardDescription>
             </CardContent>
           </Card>
