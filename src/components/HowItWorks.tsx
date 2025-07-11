@@ -3,13 +3,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  ArrowRight,
-  MousePointer,
-  Zap,
-  Users,
-  CheckCircle,
-} from "lucide-react";
+import { MousePointer, Zap, Users, CheckCircle } from "lucide-react";
 
 const steps = [
   {

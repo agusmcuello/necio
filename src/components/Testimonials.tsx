@@ -9,7 +9,7 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 export interface TestimonialItem {
   name: string;
   role: string;
@@ -45,7 +45,7 @@ export function Testimonials({ items }: TestimonialsProps) {
         {items.map((t, idx) => (
           <Card key={t.name} delay={idx * 0.2} className="group cursor-pointer">
             <CardHeader className="flex flex-col items-center">
-              <img
+              <Image
                 src={t.photo}
                 alt={t.name}
                 className="w-20 h-20 rounded-full object-cover mb-4 border-4 border-blue-100 group-hover:scale-110 transition-transform duration-300"
@@ -57,7 +57,7 @@ export function Testimonials({ items }: TestimonialsProps) {
             </CardHeader>
             <CardContent>
               <CardDescription>
-                <span className="italic">"{t.quote}"</span>
+                <span className="italic">"&quot;{t.quote}&quot;"</span>
               </CardDescription>
             </CardContent>
           </Card>

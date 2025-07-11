@@ -36,7 +36,7 @@ export function Hero() {
         >
           Boost your{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            remote team's
+            remote team&apos;s
           </span>{" "}
           productivity
         </motion.h1>
