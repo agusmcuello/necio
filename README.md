@@ -1,39 +1,74 @@
-# Necio
-Startup site
+# 🧠 Necio - AI-Powered Productivity Platform
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.0-FF0055?style=for-the-badge&logo=framer)](https://www.framer.com/motion/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-blue?style=for-the-badge)](https://necio-demo.vercel.app)
 
-## Getting Started
+> **Boost your remote team's productivity** with AI-powered workspace that helps your team stay focused and get more done — from anywhere.
 
-First, run the development server:
+## 🚀 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Necio is an AI-powered productivity platform designed to supercharge remote teams. Built with modern web technologies, it offers intelligent scheduling, real-time collaboration, and automated task management to help teams achieve up to 250% productivity boost.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✨ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **🤖 Smart Scheduling**: AI-powered scheduling that analyzes work patterns and optimizes calendars
+- **👥 Real-time Collaboration**: Collaborate with your team instantly and keep everyone synchronized
+- **⚡ Automated Tasks**: Automate repetitive tasks and focus on what truly matters
+- **📊 Team Dashboard**: Comprehensive analytics and progress tracking
+- **🎯 Workflow Optimization**: Streamlined process for immediate productivity results
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Frontend**: Next.js 14 with App Router
+- **Language**: TypeScript for type safety
+- **Styling**: Tailwind CSS for utility-first styling
+- **Animations**: Framer Motion for smooth interactions
+- **Performance**: Optimized for speed and SEO
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js 18+
+- npm or yarn package manager
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/yourusername/necio.git
+   cd necio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables**
+
+   ```bash
+   cp .env.example .env.local
+   ```
+
+   Add your environment variables:
+
+   ```env
+   NEXT_PUBLIC_API_URL=your_api_url
+   NEXT_PUBLIC_SITE_URL=http://localhost:3000
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
