@@ -338,8 +338,8 @@ export function Footer() {
             key={i}
             className="absolute w-1 h-1 bg-blue-400 rounded-full"
             initial={{
-              x: Math.random() * window.innerWidth,
-              y: window.innerHeight + 100,
+              x: Math.random() * 1200,
+              y: 800,
               opacity: 0,
             }}
             animate={{
