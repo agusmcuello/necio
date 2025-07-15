@@ -7,9 +7,9 @@ export function Button({ size = "sm", className, ...props }: ButtonProps) {
   return (
     <button
       className={cn(
-        "bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl cursor-pointer",
+        "font-semibold rounded-xl cursor-pointer transition-all duration-300",
         size === "lg" ? "px-6 py-3 text-lg" : "px-4 py-2 text-base",
-        className // ✅ acá lo estás usando correctamente
+        className
       )}
       {...props}
     />

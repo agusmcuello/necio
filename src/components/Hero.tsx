@@ -60,25 +60,21 @@ export function Hero() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="flex flex-col sm:flex-row gap-4 mb-8"
         >
-          <div className="group">
-            <Button
-              size="lg"
-              className="group text-lg px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300"
-            >
-              Get started for free
-              <ArrowRight className="ml-2 w-5 h-5 transform transition-all duration-300 group-hover:rotate-45" />
-            </Button>
-          </div>
+          <Button
+            size="lg"
+            className="group text-lg px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 text-white"
+          >
+            Get started for free
+            <ArrowRight className="ml-2 w-5 h-5 transform transition-all duration-300 group-hover:rotate-45" />
+          </Button>
 
-          <div className="group">
-            <Button
-              size="lg"
-              className="group text-lg px-8 py-4 border-2 hover:bg-gray-50 transition-all duration-300"
-            >
-              <Play className="mr-2 w-5 h-5 fill-transparent stroke-white group-hover:fill-white transition-all duration-300" />
-              Watch demo
-            </Button>
-          </div>
+          <Button
+            size="lg"
+            className="group text-lg px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 text-white hover:bg-white hover:text-white"
+          >
+            <Play className="mr-2 w-5 h-5 fill-transparent stroke-white group-hover:fill-white transition-all duration-300" />
+            Watch demo
+          </Button>
         </motion.div>
 
         <motion.div
