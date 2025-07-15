@@ -8,8 +8,8 @@ export function Button({ size = "sm", className, ...props }: ButtonProps) {
     <button
       className={cn(
         "bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl cursor-pointer",
-        size === "lg" ? "px-6 py-3 text-lg" : "px-4 py-2 text-base"
-        // ✅ acá lo estás usando correctamente
+        size === "lg" ? "px-6 py-3 text-lg" : "px-4 py-2 text-base",
+        className // ✅ acá lo estás usando correctamente
       )}
       {...props}
     />
